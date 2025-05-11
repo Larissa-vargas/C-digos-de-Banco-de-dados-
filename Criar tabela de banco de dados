@@ -51,9 +51,9 @@ CREATE TABLE itens_pedido (
 
 -- Inserindo dados de exemplo na tabela clientes
 INSERT INTO clientes (nome, cpf, email, telefone, endereco, data_cadastro, ativo) VALUES
-('João Silva', '123.456.789-01', 'joao@email.com', '(11) 9999-8888', 'Rua das Flores, 123 - São Paulo/SP', '2023-01-15', TRUE),
-('Maria Santos', '987.654.321-09', 'maria@email.com', '(21) 7777-6666', 'Av. Brasil, 456 - Rio de Janeiro/RJ', '2023-02-20', TRUE),
-('Carlos Oliveira', '456.789.123-45', 'carlos@email.com', '(31) 5555-4444', 'Rua dos Pinheiros, 789 - Belo Horizonte/MG', '2023-03-10', TRUE);
+('João Marcos', '123.456.789-21', 'joao@email.com', '(11) 9999-8888', 'Rua das Flores, 123 - São Paulo/SP', '2023-01-15', TRUE),
+('Maria Clara', '987.654.321-09', 'maria@email.com', '(21) 7777-6666', 'Av. Brasil, 456 - Rio de Janeiro/RJ', '2023-02-20', TRUE),
+('Miriam', '456.789.123-45', 'miriam@email.com', '(31) 5555-4444', 'Rua dos Pinheiros, 789 - Belo Horizonte/MG', '2023-03-10', TRUE);
 
 -- Inserindo dados de exemplo na tabela produtos
 INSERT INTO produtos (nome, descricao, preco, estoque, categoria, data_cadastro, ativo) VALUES
